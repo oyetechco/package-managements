@@ -11,7 +11,7 @@ sudo yum install git wget vim -y
 sudo yum install java-1.8.0-openjdk-devel -y
 # install wget unzip packages.
 sudo yum install wget unzip -y
-sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.8/bin/apache-tomcat-10.1.8.zip
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.8/bin/apache-tomcat-10.1.8.tar.gz
 sudo tar -xvf apache-tomcat-10.1.8.tar.gz
 sudo rm -rf apache-tomcat-10.1.8.tar.gz
 ### rename tomcat for good naming convention
